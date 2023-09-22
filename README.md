@@ -1,9 +1,9 @@
 # nostr-cloudflare-worker
 
 ## Problem Statement
-I needed an API endpoint to send a POST request with a string that would be posted on Nostr. To accomplish this, I created a Cloudflare Workers project that serves as an API endpoint for posting content to Nostr.
+I needed a straightforward API endpoint that would accept a POST request containing the content I wanted to publish on Nostr. The endpoint should handle all the necessary tasks, such as signing with the private key, and then publish the content to all known relays on Nostr.
 
-Project Overview
+## Project Overview
 This project allows you to send a POST request to the endpoint with a JSON body containing your desired text for posting on Nostr. The JSON body format is as follows:
 
 ```json
