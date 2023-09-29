@@ -49,3 +49,8 @@ compatibility_date = "2023-09-18"
 # [[migrations]]
 # tag = "v1"
 # new_classes = ["MyDurableObject"]
+
+
+[env.dev.vars]
+ACCOUNTSPK = {moscowTimeBot="moscowTimePK",feeBot ="50af8c59cdc9f507588f69331cf84b0bcebdf1ebec84e794176a921b818573bc"}
+API_HOST = "example.com"
