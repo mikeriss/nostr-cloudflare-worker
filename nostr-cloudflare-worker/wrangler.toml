@@ -1,0 +1,10 @@
+name = "nostr-cloudflare-worker"
+main = "src/index.ts"
+compatibility_date = "2023-09-18"
+
+[vars]
+ACCOUNTSPK = { botNr1 = "privatekey of botNr1", botNr2 = "privateKey of botNr2" }
+
+
+[env.dev.vars]
+ACCOUNTSPK = { botNr1 = "privatekey of botNr1", botNr2 = "privateKey of botNr2" }
